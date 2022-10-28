@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    color: #5D5D7D;
+    font-size: 28px;
+    line-height: 41px;
+    margin: 24px 0 0 57px;
+    cursor: pointer;
+}
+
+.menu-header {
+    margin-left: 41px;
+}
+
+#header-work {
+    opacity: 0.4;
+} 
+
+.box1 {
+    display: inline-block;
+    margin: 381px 0 0 136px;
+    width: 60%;   
+}
+
+.box2 {
+    display: inline-block;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(93,93,125, 0.16);
+    height: 100vh;
+}
+
+img {
+    width: 456px;
+    height: 561.95px;
+    margin-top: 151px;
+    position: relative;
+    right: 135px;
+}
+
+h1 {
+    color: #5D5D7D;
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+    height: 160px;
+}
+
+p {
+    color: #5D5D7D;
+    opacity: 0.6;
+    font-size: 28px;
+    line-height: 48px;
+    width: 540px;
+    height: 144px;
+    margin: 15px 0 15px 0;
+}
+
+button {
+    background: #9499EA;
+    color: #FFFFFF;
+    width: 269px;
+    height: 62px;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .box1 {
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .box2 {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+    }
+
+    img {
+        position: static;
+        width: 271px;
+        height: 322px;
+        margin: 46px 50px;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        height: 104px;
+        width: 268px;
+        margin: 58px 50px 0 50px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 15px 40px;
+        height: 96px;
+        width: 296px;
+    }
+
+    button {
+        margin: 0 61px;
+    }
+}
