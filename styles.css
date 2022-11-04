@@ -81,6 +81,30 @@ button {
     border-radius: 30px;
 }
 
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.menu-header:hover {
+    opacity: 0.8;
+}
+
+.menu-header:active {
+    opacity: 0.5;
+}
+
+#header-work:hover {
+    opacity: 0.8;
+}
+
+#header-work:active {
+    opacity: 1.0;
+}
+
 @media screen and (max-width: 900px) {
     .box1 {
         width: 100%;
